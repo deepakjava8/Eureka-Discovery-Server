@@ -1,0 +1,6 @@
+zuul:
+  routes:
+    employee-producer:
+      path: /api/**
+      service-id: employee-producer
+      strip-prefix: false
